@@ -31,23 +31,21 @@ Predict **acid concentration (g/L)** using:
 # User Inputs
 # -----------------------------
 
-min_temp = float(df["Temperature_C"].min())
+
 
 temperature = st.number_input(
     "Enter Temperature (°C):",
-    min_value=min_temp,
-    value=min_temp,
+    min_value=0.0,
     step=0.1,
     format="%.1f"
 )
 
 
-min_cond = float(df["Conductivity_mS_cm"].min())
+
 
 conductivity_mS = st.number_input(
     "Enter Conductivity (mS/cm):",
-    min_value=min_cond,
-    value=min_value,
+    min_value=0.0,
     step=1.0,
     format="%.0f"
 )
