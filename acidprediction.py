@@ -33,15 +33,15 @@ Predict **acid concentration (g/L)** using:
 temperature = st.number_input(
     "Enter Temperature (°C):",
     min_value=0.0,
-    value=15,
-    step=1,
+    value=15.0,
+    step=1.0,
     format="%.1f"
 )
 
 conductivity_mS = st.number_input(
     "Enter Conductivity (mS/cm):",
     min_value=0.0,
-    value=82,
+    value=82.0,
     step=1.0,
     format="%.0f"
 )
