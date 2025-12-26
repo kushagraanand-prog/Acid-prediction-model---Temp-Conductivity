@@ -77,5 +77,4 @@ if st.button("Predict Acid Concentration"):
 st.markdown("""
 ---
 **Model:** Polynomial Regression 
-**Deployment:** Streamlit 
 """)
