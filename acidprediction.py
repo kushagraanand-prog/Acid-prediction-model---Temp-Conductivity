@@ -47,7 +47,7 @@ conductivity_mS = st.number_input(
     "Enter Conductivity (mS/cm):",
     min_value=0.0,
     step=1.0,
-    format="%.0f"
+    format="%.2f"
 )
 
 # -----------------------------
